@@ -1,0 +1,102 @@
+# ===== SERVEUR WEB =====
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+starlette==0.27.0
+
+# ===== VALIDATION & CONFIGURATION =====
+pydantic==2.8.2
+pydantic-settings==2.4.0
+python-multipart==0.0.6
+
+# ===== DATABASE & CACHE =====
+redis==5.0.8
+aioredis==2.0.1
+asyncpg==0.29.0
+psycopg2-binary==2.9.9
+
+# ===== SUPABASE =====
+supabase==2.2.0
+
+# ===== NEO4J =====
+neo4j==5.15.0
+
+# ===== TÂCHES & SCHEDULING =====
+apscheduler==3.10.4
+celery==5.3.4
+
+# ===== MONITORING LLM =====
+langfuse==3.0.5
+structlog==23.2.0
+
+# ===== RATE LIMITING =====
+slowapi==0.1.9
+
+# ===== HTTP & NETWORKING =====
+httpx==0.26.0
+aiofiles==23.2.1
+websockets==13.1
+sse-starlette==2.1.3
+
+# ===== SÉCURITÉ =====
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ===== TEMPLATES & RENDERING =====
+jinja2==3.1.2
+
+# ===== UTILITAIRES =====
+orjson==3.9.12
+colorama==0.4.6
+
+# ===== DÉVELOPPEMENT & DEBUGGING =====
+python-dotenv==1.1.0
+
+# AI/ML Libraries (versions 2024-2025)
+openai==1.54.0
+anthropic==0.39.0
+google-generativeai==0.8.3
+sentence-transformers==3.3.1
+
+# Background Tasks & Scheduling
+apscheduler==3.10.4
+celery==5.3.4
+
+# Security & Authentication (versions sécurisées)
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.1
+
+# Data Processing
+pandas==2.2.3
+numpy==2.1.3
+
+# HTTP & Networking (versions async optimisées)
+aiohttp==3.11.7
+aiofiles==23.2.1
+
+# Logging & Monitoring (structured logging)
+structlog==23.2.0
+prometheus-client==0.21.0
+colorama==0.4.6
+
+# Development & Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
+black==24.10.0
+ruff==0.8.0  # Remplace flake8 pour de meilleures performances
+
+# WebSocket Support
+python-socketio==5.11.4
+
+# JSON & Data Validation (performance optimisée)
+orjson==3.9.12
+email-validator==2.2.0
+
+# Rate Limiting & Security
+slowapi==0.1.9
+python-cors==1.0.0
+
+# Production extras
+gunicorn==23.0.0  # Pour production
+watchfiles==0.24.0  # Hot reload optimisé 
